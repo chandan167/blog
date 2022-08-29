@@ -1,0 +1,1 @@
+{"version":3,"file":"auth-token.service.js","sourceRoot":"","sources":["../../../src/app/jwt/auth-token.service.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,yDAA8C;AAEvC,MAAM,sBAAsB,GAAG,CAAO,MAAa,EAAE,EAAE;IAC1D,MAAM,4BAAS,CAAC,UAAU,CAAC,EAAC,MAAM,EAAE,MAAM,EAAC,CAAC,CAAA;AAChD,CAAC,CAAA,CAAA;AAFY,QAAA,sBAAsB,0BAElC"}

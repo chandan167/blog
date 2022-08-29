@@ -1,0 +1,10 @@
+export declare const getCurrentTimestamp: () => number;
+export declare const getTimestampInSeconds: () => number;
+export declare const addSeconds: (seconds: number, date?: Date) => Date;
+export declare const addMinutes: (minutes: number, date?: Date) => Date;
+export declare const addHours: (hours: number, date?: Date) => Date;
+export declare const addDays: (days: number, date?: Date) => Date;
+export declare const convertDateToTimestamp: (date: Date) => number;
+export declare const convertDateToSeconds: (date: Date) => number;
+export declare const convertTimestampToDate: (timestamp: number) => Date;
+//# sourceMappingURL=date-time.d.ts.map
