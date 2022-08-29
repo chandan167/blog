@@ -10,6 +10,6 @@ const PORT = process.env['PORT'] || 3000;
 mongoConnect().then(() =>{
     server.listen(PORT, () =>{
         console.log(`Server is Running on http://localhost:${PORT}`);
-        logRoutes();
+        if(process.env['NODE_ENV'] == 'development') logRoutes();
     })
 })
