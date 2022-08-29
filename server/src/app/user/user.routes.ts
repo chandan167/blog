@@ -10,7 +10,6 @@ const router:Router = Router();
 
 router.post('/sign-up', signUpValidationRules, validateRequest, asyncResolver(UserController.singUp));
 router.post('/sign-in', signInValidationRules, validateRequest, asyncResolver(UserController.singIn));
-router.delete('/sign-in', signInValidationRules, validateRequest, asyncResolver(UserController.singIn));
 router.use(authMiddleware())
 router.get('/', asyncResolver(UserController.usersList));
 router.get('/profile', asyncResolver(UserController.usersProfile));
@@ -18,4 +17,4 @@ router.post('/logout', asyncResolver(UserController.logOut));
 router.post('/logout-all-devices', asyncResolver(UserController.logOutFromAllDevices));
 
 export const userRouter:Router = Router();
-userRouter.use('/user', router);
+userRouter.use('/user', router); 
